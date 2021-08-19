@@ -1,0 +1,116 @@
+body{
+    /* background-color: rgb(194, 201, 204); */
+    padding: 1%;
+    background-image: linear-gradient(to bottom,#eaf0f1 50%, #ff99cc 100%);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.zuriLogo{
+    position: relative;
+    margin-left: 5%;
+    width: 50px;
+    height: 40px;
+    border-radius: 0%;
+}
+.stackName{
+    font-size: 60%;
+    padding-left: 5%;
+    color: white;
+}
+h1{
+    padding-left: 5%;
+    color: white;
+    font-size: 140%;
+}
+.header{
+    background-image: linear-gradient(to right, rgb(248, 109, 133) ,rgb(160, 17, 160));
+    width: 50%;
+    height: 50%;
+    border-bottom-right-radius: 300px;
+}
+hr{
+   margin-left: 25px;
+   margin-right: 120px; 
+}
+.objective{
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    background-color: pink;
+    padding: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+.workExperience{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background-color: pink;
+    padding: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 25%;
+}
+.achievement{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background-color: pink;
+    padding: 30px;
+    margin-top: 10px;
+}
+#achievement{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    margin-left: 20px;
+}
+main{
+    content: center;
+}
+footer{
+    display: flex;
+    margin-left: 10%;
+}
+footer h2{
+    color: purple;
+}
+marquee{
+    color: rgb(71, 5, 71);
+}
+footer li{
+    color: rgb(146, 82, 146);
+}
+.fontAwsome{
+    margin-left: 30%;
+}
+@media screen and (min-width:600px){
+    .objective{
+        margin-left: 20%;
+    }
+    .workExperience{
+        margin-left: 50%;
+        margin-top: -5%;
+    }
+    .achievement{
+        margin-left: 20%;
+        margin-top: -5%;
+    }
+    footer{
+        margin-left: 20%;
+    }
+    img{
+        margin-right: 100px;
+    }
+    .fontAwsome{
+        margin-left: 40%;
+    }
+}
